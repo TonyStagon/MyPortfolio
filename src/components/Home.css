@@ -1,0 +1,104 @@
+/* Ensure it fills the entire screen */
+
+.home-container {
+    position: absolute;
+    /* Ensure it covers the entire viewport */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+}
+
+
+/* Ensure navigation is correctly positioned */
+
+.nav {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    color: #dcdcdc;
+}
+
+
+/* Adjust heading and text for full screen */
+
+.heading {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    max-width: 80%;
+}
+
+.subtext {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #dcdcdc;
+    max-width: 60%;
+}
+
+
+/* Fix button positioning */
+
+.projects-btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.projects-btn:hover {
+    background: #e0e0e0;
+}
+
+
+/* Adjust social icons */
+
+.social-icons {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.social-icon img:hover {
+    background: #dcdcdc;
+}
