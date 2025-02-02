@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import FractalTree from "./FractalTree"; // Import FractalTree component
 
 const Home = () => {
   return (
@@ -18,6 +19,11 @@ const Home = () => {
         <a href="#">CONTACT</a>
       </nav>
 
+      {/* Fractal Tree Logo - Positioned Above Heading */}
+      <div className="fractal-container">
+        <FractalTree />
+      </div>
+
       {/* Main Heading */}
       <h1 className="heading">Hey, My Name Is Arthur Maatlane</h1>
       <p className="subtext">
@@ -30,13 +36,13 @@ const Home = () => {
       {/* Social Icons */}
       <div className="social-icons">
         {[
-          { src: "https://cdn-icons-png.flaticon.com/512/145/145807.png", alt: "LinkedIn" },
-          { src: "https://cdn-icons-png.flaticon.com/512/25/25231.png", alt: "GitHub" },
-          { src: "https://cdn-icons-png.flaticon.com/512/733/733579.png", alt: "Twitter" },
-          { src: "https://cdn-icons-png.flaticon.com/512/1384/1384060.png", alt: "YouTube" },
-          { src: "https://cdn-icons-png.flaticon.com/512/2111/2111463.png", alt: "Instagram" }
+          { src: "https://cdn-icons-png.flaticon.com/512/145/145807.png", alt: "LinkedIn", link: "https://www.linkedin.com/in/arthur-maatlane-a975762a0" },
+          { src: "https://cdn-icons-png.flaticon.com/512/25/25231.png", alt: "GitHub", link: "#" },
+          { src: "https://cdn-icons-png.flaticon.com/512/733/733579.png", alt: "Twitter", link: "#" },
+          { src: "https://cdn-icons-png.flaticon.com/512/1384/1384060.png", alt: "YouTube", link: "#" },
+          { src: "https://cdn-icons-png.flaticon.com/512/2111/2111463.png", alt: "Instagram", link: "#" }
         ].map((icon, index) => (
-          <a key={index} href="#" className="social-icon">
+          <a key={index} href={icon.link} target="_blank" rel="noopener noreferrer" className="social-icon">
             <img src={icon.src} alt={icon.alt} />
           </a>
         ))}
