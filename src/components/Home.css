@@ -133,10 +133,6 @@ body {
 /* Small Screens (Tablets and smaller) */
 
 @media (max-width: 768px) {
-    .nav {
-        flex-direction: column;
-        gap: 10px;
-    }
     .heading {
         font-size: 36px;
         max-width: 90%;
@@ -176,10 +172,6 @@ body {
         padding: 8px 16px;
         font-size: 14px;
     }
-    .nav {
-        display: none;
-        /* Hide nav for mobile, you can add a menu icon instead */
-    }
     .social-icons {
         left: 5px;
         gap: 8px;
@@ -187,5 +179,36 @@ body {
     .social-icon img {
         width: 22px;
         height: 22px;
+    }
+}
+
+
+/* Hide Full Navbar and Show Hamburger on Small Screens */
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+    .nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(0, 0, 0, 0.8);
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .nav a {
+        display: block;
+        padding: 10px;
+        font-size: 18px;
+        color: white;
+    }
+    /* When menu is open */
+    .nav.nav-open {
+        display: flex;
     }
 }

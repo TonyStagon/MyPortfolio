@@ -6,13 +6,14 @@ const Home = () => {
   return (
     <section className="home-container">
       {/* Profile Image and Name */}
-      <div className="profile">
-        <img src="https://via.placeholder.com/50" alt="Profile" className="profile-img" />
-        <span className="profile-name">Trainee Name</span>
-      </div>
+      
 
       {/* Navigation */}
       <nav className="nav">
+      <div className="profile">
+        <img src="https://via.placeholder.com/50" alt="Profile" className="profile-img" />
+        <span className="profile-name">Arthur Maatlane</span>
+      </div>
         <a href="#">HOME</a>
         <a href="#">ABOUT</a>
         <a href="#">PROJECTS</a>
