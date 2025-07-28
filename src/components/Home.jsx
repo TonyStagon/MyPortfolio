@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "./Home.css";
@@ -93,15 +93,32 @@ const Home = () => {
         <div className="fractal-container">
           <FractalTree />
         </div>
-        
         {/* Main Heading */}
         <h1 className="heading">HEY, MY NAME IS ARTHUR MAATLANE</h1>
         <p className="subtext">
           Welcome to my portfolio. I am a passionate developer with experience in React.js, CSS, and modern web technologies.
         </p>
+ {/* Project Button - Moved Below About Section */}
+      <button className="projects-btn">VIEW PROJECTS</button>
 
-        {/* Projects Button */}
-        <button className="projects-btn">VIEW PROJECTS</button>
+        {/* About Me Section - Moved Higher */}
+        <div className="about-section">
+          <h2>About Me</h2>
+          <p>
+            I am currently a <strong>Software Development Engineer</strong> at <strong>Reslocate</strong>, working in Enhancing the Software and improving it with Trending Features that are  Educational using python . At the same time, I am undertaking a part-time <strong>Master's of Science</strong> in <strong>Software Engineering</strong> at <strong>University of Oxford</strong>.
+          </p>
+          
+          <p>Here are some technologies I have been working with:</p>
+          
+          <ul className="tech-list">
+            <li>Typescript</li>
+            <li>Python</li>
+            <li>React.js</li>
+            <li>Java</li>
+            <li>Javascript</li>
+            <li>C#</li>
+          </ul>
+        </div>
 
         {/* Projects Section */}
         <div className="projects-section">
@@ -109,7 +126,7 @@ const Home = () => {
           
           {/* Featured Projects Carousel */}
           <div className="featured-projects">
-            <h3 className="projects-subtitle">Featured Projects</h3>
+            <h3 className="projects-subtitle"> Projects</h3>
             <div className="carousel-container">
               <div 
                 className="carousel-track" 
@@ -195,30 +212,10 @@ const Home = () => {
           </div>
         </div>
 
-        {/* About Me Section */}
-        <div className="about-section">
-          <h2>About Me</h2>
-          <p>
-            I am currently a <strong>Software Development Engineer</strong> at <strong>Reslocate</strong>, working in Enhancing the Software and improving it with Trending Features that are  Educational using python . At the same time, I am undertaking a part-time <strong>Master's of Science</strong> in <strong>Software Engineering</strong> at <strong>University of Oxford</strong>.
-          </p>
-          
-          <p>Here are some technologies I have been working with:</p>
-          
-          <ul className="tech-list">
-            <li>Typescript</li>
-            <li>Python</li>
-            <li>React.js</li>
-            <li>Java</li>
-            <li>Javascript</li>
-            <li>C#</li>
-          </ul>
-          
-          <p>
-            Outside of work, I'm interested in following the developments of science. I also play a lot of video games. And make TikTok's.
-          </p>
-        </div>
+       
       </div>
 
+     
       {/* Social Icons */}
       <div className="social-icons">
         {[
