@@ -9,7 +9,7 @@ const Home = () => {
     {
       title: "FULL-STACK LUXURY E-COMMERCE",
       description: " Luxury online retail platform with full-stack functionality",
-      image: "/homeGlam.png",
+      image: "homeGlam.png",
       technologies: ["React.js", "Node.js", "Rest API", "Firebase" ,  "Yoco-backend"],
       githubLink: "https://github.com/TonyStagon/GlamNest",
       liveLink: "https://glam-nest.vercel.app/"
@@ -17,24 +17,24 @@ const Home = () => {
     {
       title: "VIRTUAL-GALLERY-3D ",
       description: "The 3D Virtual Gallery is an immersive web-based application that allows users to explore a virtual art exhibition space rendered in real time",
-      image: "/public/gallery.png",
+      image: "gallery.png",
       technologies: ["Node.js", "Three.js", "React.js", "JavaScript ", "GLTF/GLB"],
       githubLink: "https://github.com/TonyStagon/3d-Virtual-Gallery",
       liveLink: "https://3d-virtual-gallery.vercel.app/"
     },
     {
       title: "Online Bag Store",
-      description: "Management interface for Toronto District School Board.",
-      image: "/public/Thurto.png",
+      description: "Online store , Bag Store is a full-stack e-commerce . featuring a user-friendly interface and robust backend.",
+      image: "Thurto.png",
       technologies: ["Python (Flask)", "Vue.js", "Bootstrap", "SQL"],
       githubLink: "https://github.com/TonyStagon/Ecommerce-Project-front",
       liveLink: "https://ecommerce-project-front-eight.vercel.app/"
     },
     {
       title: "Hotel Magement System",
-      description: "Self-learning A.I. using genetic algorithm for maze traversal.",
-      image: "/public/hotel.png",
-      technologies: ["Javascript", "HTML/CSS"],
+      description: "Hotel management platform .",
+      image: "hotel.png",
+      technologies: ["Javascript", "HTML/CSS", "MoongoDB"],
       githubLink: "#",
       liveLink: "#"
     }
@@ -79,7 +79,7 @@ const Home = () => {
       {/* Navigation */}
       <nav className="nav">
         <div className="profile">
-          <img src="https://via.placeholder.com/50" alt="Profile" className="profile-img" />
+          <img src="profile.jpg" alt="Profile" className="profile-img" />
           <span className="profile-name">Arthur Maatlane</span>
         </div>
         <a href="#">HOME</a>
@@ -105,7 +105,7 @@ const Home = () => {
         <div className="about-section">
           <h2>About Me</h2>
           <p>
-            I am currently a <strong>Software Development Engineer</strong> at <strong>Reslocate</strong>, working in Enhancing the Software and improving it with Trending Features that are  Educational using python . At the same time, I am undertaking a part-time <strong>Master's of Science</strong> in <strong>Software Engineering</strong> at <strong>University of Oxford</strong>.
+            I am currently a <strong>Software Development Engineer</strong> at <strong>Reslocate</strong>, developing educational software features. Currently pursuing a part-time <strong>Master's in Science</strong> of <strong>Software Engineering</strong> at <strong>University of Oxford</strong>.
           </p>
           
           <p>Here are some technologies I have been working with:</p>
