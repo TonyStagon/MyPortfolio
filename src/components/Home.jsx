@@ -199,7 +199,7 @@ const Home = () => {
         <div className="about-section">
           <h2>About Me</h2>
           <p>
-            I am currently a <strong>Software Development Engineer</strong> at <strong>Amazon</strong>, working in the AWS sector under team Route 53. At the same time, I am undertaking a part-time <strong>Master's of Science</strong> in <strong>Software Engineering</strong> at <strong>University of Oxford</strong>.
+            I am currently a <strong>Software Development Engineer</strong> at <strong>Reslocate</strong>, working in Enhancing the Software and improving it with Trending Features that are  Educational using python . At the same time, I am undertaking a part-time <strong>Master's of Science</strong> in <strong>Software Engineering</strong> at <strong>University of Oxford</strong>.
           </p>
           
           <p>Here are some technologies I have been working with:</p>
@@ -209,7 +209,7 @@ const Home = () => {
             <li>Python</li>
             <li>React.js</li>
             <li>Java</li>
-            <li>Javascript ES6+</li>
+            <li>Javascript</li>
             <li>C#</li>
           </ul>
           
