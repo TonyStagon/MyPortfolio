@@ -105,7 +105,7 @@ const Home = () => {
         <div className="about-section">
           <h2>About Me</h2>
           <p>
-            I am currently a <strong>Software Development Engineer</strong> at <strong>Reslocate</strong>, developing educational software features. Currently pursuing a part-time <strong>Master's in Science</strong> of <strong>Software Engineering</strong> at <strong>University of Oxford</strong>.
+            I am currently a <strong>Software Development</strong> at <strong>Reslocate</strong>, developing educational software features. Completed <strong>Diploma in Science Course </strong> at Tshwane UUniversity of Technology and currently  full filling WIL 
           </p>
           
           <p>Here are some technologies I have been working with:</p>
@@ -116,7 +116,8 @@ const Home = () => {
             <li>React.js</li>
             <li>Java</li>
             <li>Javascript</li>
-            <li>C#</li>
+            <li>Node.js</li>
+            <li></li>
           </ul>
         </div>
 
@@ -220,7 +221,7 @@ const Home = () => {
       <div className="social-icons">
         {[
           { src: "https://cdn-icons-png.flaticon.com/512/145/145807.png", alt: "LinkedIn", link: "https://www.linkedin.com/in/arthur-maatlane-a975762a0" },
-          { src: "https://cdn-icons-png.flaticon.com/512/25/25231.png", alt: "GitHub", link: "#" },
+          { src: "https://cdn-icons-png.flaticon.com/512/25/25231.png", alt: "GitHub", link: "https://github.com/TonyStagon" },
           { src: "https://cdn-icons-png.flaticon.com/512/733/733579.png", alt: "Twitter", link: "#" },
           { src: "https://cdn-icons-png.flaticon.com/512/1384/1384060.png", alt: "YouTube", link: "#" },
           { src: "https://cdn-icons-png.flaticon.com/512/2111/2111463.png", alt: "Instagram", link: "#" }
