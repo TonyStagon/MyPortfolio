@@ -105,7 +105,7 @@ const Home = () => {
         <div className="about-section">
           <h2>About Me</h2>
           <p>
-            I am currently a <strong>Software Development</strong> at <strong>Reslocate</strong>, developing educational software features. Completed <strong>Diploma in Science Course </strong> at Tshwane UUniversity of Technology and currently  full filling WIL 
+            I am currently a <strong>Software Development</strong> at <strong>Reslocate</strong>, developing educational software features. Completed <strong>Diploma in Science Course </strong> at Tshwane UUniversity of Technology 
           </p>
           
           <p>Here are some technologies I have been working with:</p>
