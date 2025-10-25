@@ -78,10 +78,6 @@ const Home = () => {
     <section className="home-container">
       {/* Navigation */}
       <nav className="nav">
-        <div className="profile">
-          <img src="profile.jpg" alt="Profile" className="profile-img" />
-          <span className="profile-name">Arthur Maatlane</span>
-        </div>
         <a href="#">HOME</a>
         <a href="#">ABOUT</a>
         <a href="#">PROJECTS</a>
