@@ -94,7 +94,7 @@ const Home = () => {
           <FractalTree />
         </div>
         {/* Main Heading */}
-        <h1 className="heading">HEY, MY NAME IS ARTHUR MAATLANE</h1>
+        <h1 className="heading">HI , ARTHUR HERE  </h1>
         <p className="subtext">
           Welcome to my portfolio. I am a passionate developer with experience in React.js, CSS, and modern web technologies.
         </p>
