@@ -58,9 +58,9 @@ const Home = () => {
     {
       title: "Portfolio Website",
       description: "Responsive portfolio built with React and CSS.",
-      technologies: ["React", "CSS", "JavaScript"],
-      githubLink: "#",
-      liveLink: "#"
+      technologies: ["React", "CSS", "JavaScript","TypeScript"],
+      githubLink: "https://github.com/TonyStagon/MyPortfolio",
+      liveLink: "https://arthurmaatlane.vercel.app/"
     }
   ];
 
@@ -113,7 +113,7 @@ const Home = () => {
             <li>Java</li>
             <li>Javascript</li>
             <li>Node.js</li>
-            <li></li>
+            <li>C++</li>
           </ul>
         </div>
 
