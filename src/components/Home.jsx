@@ -101,8 +101,8 @@ const Home = () => {
         <div className="about-section">
           <h2>About Me</h2>
           <p>
-            I am currently a <strong>Software Development</strong> at <strong>Reslocate</strong>, developing educational software features. Completed <strong>Diploma in Science Course </strong> at Tshwane UUniversity of Technology and currently  full filling WIL 
-          </p>
+  Software Developer with 3+ years of experience building scalable web, mobile, and AI-powered applications. Currently at <strong>Reslocate</strong> developing intelligent educational technology, and previously a Full Stack Developer at <strong>mLab</strong> delivering end-to-end solutions across frontend, backend, and system integration. Holder of a <strong>Diploma in Computer Science</strong> from Tshwane University of Technology.
+</p>
           
           <p>Here are some technologies I have been working with:</p>
           
